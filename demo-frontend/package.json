@@ -1,0 +1,41 @@
+{
+  "author": "Philipp Hoenisch <philipp@hoenisch.at>",
+  "name": "realtime",
+  "description": "Realtime charts with node.js and ",
+  "keywords": [
+    "socket.io",
+    "realtime",
+    "counter",
+    "chart",
+    "smoothie.js"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bonomat/realchart"
+  },
+  "main": "server.js",
+  "scripts": {
+      "start": "NODE_ENV=filab node server.js",
+},
+  "engines": {
+    "node": ">= v0.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.8.3",
+    "error-handler": "^1.0.0",
+    "express": ">= 2.3.11",
+    "jade": ">= 0.12.3",
+    "mysql": ">= 2.0.0-alpha2",
+    "restler": "^3.2.2",
+    "socket.io": ">= 0.7.2",
+    "stylus": ">= 0.13.4",
+    "node-hive": "^0.1.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bonomat/realchart/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+
+       Copyright 2012-2013 Trento RISE
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+
+-->
+
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>parcheggi</name>
+<Schema name="parcheggi" id="parcheggi">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="NAME" type="string"></SimpleField>
+	<SimpleField name="TOTAL" type="int"></SimpleField>
+</Schema>
+  <Placemark>
+	<name>MANIFATTURA</name>
+	<ExtendedData><SchemaData schemaUrl="#parcheggi">
+		<SimpleData name="Name">MANIFATTURA</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="TOTAL">100</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.023731197025306,45.884609017291325</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>STADIO</name>
+	<ExtendedData><SchemaData schemaUrl="#parcheggi">
+		<SimpleData name="Name">STADIO</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="TOTAL">100</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.036541977979024,45.900691265298796</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>
