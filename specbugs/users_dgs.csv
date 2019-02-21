@@ -1,0 +1,4 @@
+﻿NOM;PRENOM;ROLE;ANNEE;latitude;longitude;result_label;result_score;result_type;result_id;result_housenumber;result_name;result_street;result_postcode;result_city;result_context;result_citycode
+THOURET;LAETITIA;DO;1981;;;;;;;;;;;;;
+FOUREL;NICOLAS;CDO;1980;48.316468;-3.159971;Rue des Tourelles 22480 Saint-Nicolas-du-Pélem;0.23;street;22321_0261_19e37c;;Rue des Tourelles;;22480;Saint-Nicolas-du-Pélem;22, Côtes-d'Armor, Bretagne;22321
+ALAIN;SAUSSE;DPO;1968;;;;;;;;;;;;;
